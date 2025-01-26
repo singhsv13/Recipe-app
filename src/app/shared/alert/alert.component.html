@@ -1,0 +1,19 @@
+<!-- <div class="backdrop" (click)="onClose()"></div>
+<div class="alert-box">
+  <p>{{ message }}</p>
+  <div class="alert-box-actions">
+    <button class="btn btn-primary" (click)="onClose()">Close</button>
+  </div>
+</div> -->
+<div class="backdrop" (click)="onClose()"></div>
+
+<div class="alert-box shadow-lg rounded">
+  <div class="alert-content p-3 text-center">
+    <p class="alert-message mb-4">{{ message }}</p>
+    <div class="alert-actions">
+      <button class="btn btn-primary px-4 py-2" (click)="onClose()">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
